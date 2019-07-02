@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_enabled="false">
+        <layer-list>
+            <item android:right="@dimen/dialog_btn_hide_side_width">
+                <shape android:shape="rectangle">
+                    <corners android:bottomLeftRadius="@dimen/dialog_btn_corner_radius" />
+                    <solid android:color="@color/dialog_btn_bg_disable" />
+                </shape>
+            </item>
+        </layer-list>
+    </item>
+    <!-- normal -->
+    <item android:state_enabled="true" android:state_pressed="false">
+        <layer-list>
+            <item android:right="@dimen/dialog_btn_hide_side_width">
+                <shape android:shape="rectangle">
+                    <corners android:bottomLeftRadius="@dimen/dialog_btn_corner_radius" />
+                    <solid android:color="@color/dialog_btn_bg_normal" />
+                </shape>
+            </item>
+        </layer-list>
+    </item>
+    <!-- pressed -->
+    <item android:state_enabled="true" android:state_pressed="true">
+        <layer-list>
+            <item>
+                <shape android:shape="rectangle">
+                    <corners android:bottomLeftRadius="@dimen/dialog_btn_corner_radius" />
+                    <solid android:color="@color/dialog_btn_bg_pressed" />
+                </shape>
+            </item>
+        </layer-list>
+    </item>
+</selector>

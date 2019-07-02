@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--dialog-->
+    <color name="dialog_bg">#FFFFFF</color>
+    <color name="dialog_btn_bg_disable">#08000000</color>
+    <color name="dialog_btn_bg_normal">#08000000</color>
+    <color name="dialog_btn_bg_pressed">#08000000</color>
+    <color name="dialog_btn_color_disable">#CC000000</color>
+    <color name="dialog_btn_color_normal">#CC000000</color>
+    <color name="dialog_btn_color_pressed">#CC000000</color>
+    <color name="dialog_list_item_color_normal">@android:color/black</color>
+    <color name="dialog_list_item_color_selected">@android:color/black</color>
+    <color name="dialog_title_color">@color/color_black_50</color>
+    <color name="dialog_message_color">@color/color_black_90</color>
+    <color name="dialog_divider">@color/color_black_20</color>
+
+    <color name="color_black_5">#F2F2F2</color>
+    <color name="color_black_10">#e5e5e5</color>
+    <color name="color_black_20">#cccccc</color>
+    <color name="color_black_30">#b2b2b2</color>
+    <color name="color_black_40">#999999</color>
+    <color name="color_black_50">#7F7F7F</color>
+    <color name="color_black_60">#666666</color>
+    <color name="color_black_70">#4C4C4C</color>
+    <color name="color_black_80">#333333</color>
+    <color name="color_black_90">#222222</color>
+    <color name="color_black">#FF000000</color>
+
+</resources>

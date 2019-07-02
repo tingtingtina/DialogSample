@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.tina.lib.dialog.list.SingleCheckLinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/dialog_list_item_height"
+    android:gravity="center_vertical">
+    <!--android:background="@drawable/dialog_common_menu_list_bg"-->
+
+    <ImageView
+        android:id="@+id/select_icon"
+        android:layout_width="6dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:layout_marginStart="10dp"
+        android:scaleType="fitCenter"
+        android:src="@drawable/ic_dialog_btn_icon_selected"
+        android:visibility="invisible" />
+
+    <RelativeLayout
+        android:layout_width="0dip"
+        android:layout_height="match_parent"
+        android:layout_weight="1">
+
+        <TextView
+            android:id="@+id/text_left"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dialog_list_item_height"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:ellipsize="end"
+            android:gravity="center_vertical"
+            android:maxLines="1"
+            android:textColor="@color/dialog_list_click_selector"
+            android:textSize="@dimen/dialog_list_item_textsize" />
+
+        <TextView
+            android:id="@+id/text_center"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dialog_list_item_height"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:ellipsize="end"
+            android:gravity="center"
+            android:maxLines="1"
+            android:textColor="@color/dialog_list_click_selector"
+            android:textSize="@dimen/dialog_list_item_textsize" />
+    </RelativeLayout>
+</com.tina.lib.dialog.list.SingleCheckLinearLayout>
